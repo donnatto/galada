@@ -33,7 +33,7 @@ MongoDB, Express, Bootstrap, NodeJS
 
 [![]({{site.baseurl}}/img/hamachi.jpg)](https://hamachisushi.herokuapp.com)
 
-Este proyecto fue desarrollado junto a **[@miguelramosc2201](https://github.com/miguelramosc2201)** cuando llevamos el curso de Desarrollo de Aplicaciones Empresariales I en ISIL.
+Este proyecto fue desarrollado junto a **[@miguelramosc2201](https://github.com/miguelramosc2201)** cuando llevamos el curso de Desarrollo de Aplicaciones Empresariales I en ISIL, con fines de uso académico.
 
 Es una aplicación web enfocada al área de restaurantes, en este caso un sushi bar.
 Cuenta con un Sistema de Gestión el cuál solo puede ser accedido por personas previa autenticación.
