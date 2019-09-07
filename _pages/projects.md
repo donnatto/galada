@@ -4,10 +4,10 @@ title: Mis Proyectos
 permalink: /projects/
 images: [projects.jpg]
 ---
-# <span style="color:#1ABC9C">[Yelpcamp](https://donnattocamps.heroku.com)</span>
+# <span style="color:#1ABC9C">[Yelpcamp](https://donnattocamps.herokuapp.com)</span>
 >Agosto - 2019
 
-[![]({{site.baseurl}}/img/yelpcamp.jpg)](https://donnattocamps.heroku.com)
+[![]({{site.baseurl}}/img/yelpcamp.jpg)](https://donnattocamps.herokuapp.com)
 
 Este proyecto fue desarrollado cuando llevé el curso online **[The Web Developer Bootcamp](https://www.udemy.com/share/100YK4BkMed1hbQXg=/)**.
 
