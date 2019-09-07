@@ -1,8 +1,8 @@
 <aside class="sidebar">
-  
+
   {% if page.id %}
   <div class="widget widget-recent">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Posts Recientes</h3>
     {% for post in site.posts limit:4 %}
     <div class="recent-posts">
       {% if post.image %}
@@ -24,39 +24,38 @@
   {% endif %}
 
   <div class="widget widget-social">
-    <h3 class="widget-title">Subscribe & Follow</h3>
+    <h3 class="widget-title">Sígueme en las redes</h3>
     <ul class="social-profiles list-reset">
-      {% if site.facebook %}
-      <li class="social-profiles-item">
-        <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
-      </li>
-      {% else %} {% endif %}
+      {% if site.github %}
+     <li class="social-profiles-item">
+       <a href="{{ site.github }}" class="social-profiles-link" target="_blank"><i class="ion ion-logo-github"></i></a>
+     </li>
+     {% else %} {% endif %}
 
-       {% if site.twitter %}
-      <li class="social-profiles-item">
-        <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
-      </li>
-      {% else %} {% endif %}
+     {% if site.linkedin %}
+     <li class="social-profiles-item">
+       <a href="{{ site.linkedin }}" class="social-profiles-link" target="_blank"><i class="ion ion-logo-linkedin"></i></a>
+     </li>
+     {% else %} {% endif %}
 
-      {% if site.instagram %}
-      <li class="social-profiles-item">
-        <a href="{{ site.instagram }}" class="social-profiles-link"><i class="ion ion-logo-instagram"></i></a>
-      </li>
-      {% else %} {% endif %}
+     {% if site.instagram %}
+     <li class="social-profiles-item">
+       <a href="{{ site.instagram }}" class="social-profiles-link" target="_blank"><i class="ion ion-logo-instagram"></i></a>
+     </li>
+     {% else %} {% endif %}
 
-      {% if site.pinterest %}
-      <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
-      </li>
-      {% else %} {% endif %}
+     {% if site.facebook %}
+     <li class="social-profiles-item">
+       <a href="{{ site.facebook }}" class="social-profiles-link" target="_blank"><i class="ion ion-logo-facebook"></i></a>
+     </li>
+     {% else %} {% endif %}
     </ul>
   </div>
 
   <div class="widget widget-newsletter">
-    <h3 class="widget-title">Newsletter</h3>
-    <div class="newsletter-subtitle">Get Interesting News</div>
-    <div class="newsletter-text">Receive the latest news via email.</div>
-    <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
+    <h3 class="widget-title">Contacto</h3>
+    <div class="newsletter-subtitle">Puedes escribirme a <a class="footer-social" target="_blank" href="mailto:contact@donnatto.tech">contact&#64;donnatto.tech</a></div>
+    <!-- <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
       id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
       <div class="newsletter-group">
         <div class="newsletter-group-top">
@@ -64,23 +63,23 @@
           <i class="email-icon ion ion-ios-mail"></i>
           <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="E-mail">
         </div>
-        <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
+        <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Enviar">
       </div>
-    </form>
+    </form> -->
   </div>
 
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
-    <h3 class="widget-title">Instagram</h3>
+    <h3 class="widget-title">Insta Feed</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="instagram-prof" href="#">&#64;UserName</a>
+      <a class="footer-social" target="_blank" href="https://www.instagram.com/donnatto_">&#64;donnatto_</a>
     </div>
   </div>
   {% endif %}
 
   <div class="widget widget-tags">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">Tags</h3>
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
     endcapture %} {% assign tag_words = site_tags | split:',' | sort %}
     <ul class="tag-list list-reset">
@@ -91,5 +90,5 @@
     {% endfor %}
     </ul>
   </div>
-  
+
 </aside> <!-- /.sidebar -->
