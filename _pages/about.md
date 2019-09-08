@@ -15,4 +15,4 @@ Recuerdo la primera vez que me enseñó a crear un acceso directo en el escritor
 
 Actualmente estudio Sistemas de Información en ISIL, donde me mantengo en los primeros puestos de la carrera y además, como toda persona en búsqueda de conocimiento, constantemente llevo distintos cursos en línea y leo de diversas fuentes contenido relacionado al mundo tecnológico.
 
-Me interesa formar parte de proyectos que aporten a mi crecimiento profesional, así que siéntete en confianza de enviarme un mensaje a <a href="maito:contact@donnatto.tech" target="_blank">**contact@donnatto.tech**</a> y conéctate a mis redes sociales.
+Me interesa formar parte de proyectos que aporten a mi crecimiento profesional, así que siéntete en confianza de enviarme un mensaje a <a href="mailto:contact@donnatto.tech" target="_blank">**contact@donnatto.tech**</a> y conéctate a mis redes sociales.
