@@ -191,7 +191,7 @@
   .article-image-first {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     min-height: 450px;
     background-size: cover;
     background-position: center;
@@ -413,8 +413,11 @@
 
 @media only screen and (min-width: 768px) {
   .article-first {
+    .article-image-first{
+    align-items: center;
+    }
     .article-content-first {
-      padding: 60px 40px 0;
+      padding: 40px;
     }
   }
 }
