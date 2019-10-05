@@ -206,6 +206,7 @@
   }
   .article-content-first {
     padding: 20px;
+    padding-top: 50%;
     color: $text;
     .article-tag {
       .tag {
@@ -376,7 +377,10 @@
   opacity: 1;
 }
 
-
+.wrapper-dark {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .75)
+}
 
 // Media
 @media only screen and (min-width: 576px) {
@@ -417,7 +421,7 @@
     align-items: center;
     }
     .article-content-first {
-      padding: 40px;
+      padding: 14% 5%;
     }
   }
 }

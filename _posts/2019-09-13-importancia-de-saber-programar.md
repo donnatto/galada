@@ -4,7 +4,7 @@ title:  ¿Por qué es importante aprender a programar en la actualidad?
 date:   2019-09-13
 image:  post-01.jpg
 img-author: alesnesetril
-tags:   [Tecnología]
+tags:   [Tecnología, Programación]
 ---
 Hoy 13 de septiembre, en muchos países se celebra el <strong>Día Internacional del Programador</strong>, profesión que en los últimos años fue adquiriendo mayor protagonismo debido a su importancia en un mundo cada vez más tecnológico.
 
