@@ -4,6 +4,30 @@ title: Mis Proyectos
 permalink: /projects/
 images: [projects.jpg]
 ---
+# <a href="https://ez-learning.herokuapp.com" target="_blank">Ez Learning</a>
+>Diciembre - 2019
+
+<a href="https://ez-learning.herokuapp.com" target="_blank"><img src="{{site.baseurl}}/img/project-ezlearning.jpg" /></a>
+
+Esta plataforma comienza como un proyecto académico en Agosto del 2019, creado para el curso de Desarrollo de Aplicaciones Empresariales II en ISIL.
+
+Es una plataforma de e-learning donde puedes explorar cursos, profesores, y registrarte para tomar los cursos que desees.
+
+Tienes la capacidad de anotarte como profesor, pero solo el administrador puede modificar y crear cursos.
+
+- Utiliza **Thymeleaf** para el **Frontend**, el cual fue estilizado con **Materialize**.
+- El **Backend** está desarrollado en **Java 8**, utilizando **Spring Boot** con MVC, JPA y Security como dependencias.
+- Tiene 2 perfiles de aplicacion. El perfil de desarrollo utiliza una base de datos **H2** en memoria, mientras que el de producción utiliza una base de datos **MySQL**. Ambas utilizan control de version SQL con **Flyway**.
+- La aplicacion web se encuentra desplegada en **Heroku**, mientras que la base de datos **MySQL** está alojada en una instancia de **AWS RDS**.
+
+### Stack Utilizado
+
+Java, Spring Boot, MySQL, Materialize
+
+#### <a href="https://github.com/donnatto/ez-learning" target="_blank">Repositorio del Proyecto en Github</a>
+
+***
+
 # <a href="https://donnattocamps.herokuapp.com" target="_blank">Yelpcamp</a>
 >Agosto - 2019
 
