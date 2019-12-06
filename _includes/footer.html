@@ -4,13 +4,17 @@
       <div class="col col-12">
         <div class="footer-top">
           <h2 class="logo-title">
-            <a href="{{site.baseurl}}/" class="logo-text">Donnatto</a>
+            <a href="{{site.baseurl}}/" class="logo-text">Donnatto | Blog</a>
           </h2>
           <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
         </div>
         <div class="footer-bottom">
           <div class="footer-social">
             <ul class="list-reset">
+              {% if site.donnatto %}
+              <li><a href="{{ site.donnatto }}" target="_blank"> Portfolio</a></li>
+              {% else %} {% endif %}
+
               {% if site.github %}
               <li><a href="{{ site.github }}" target="_blank">Github</a></li>
               {% else %} {% endif %}

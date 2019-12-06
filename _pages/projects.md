@@ -22,7 +22,7 @@ Tienes la capacidad de anotarte como profesor, pero solo el administrador puede 
 
 ### Stack Utilizado
 
-Java, Spring Boot, MySQL, Materialize
+Java 8, Spring Boot, MySQL, Materialize
 
 #### <a href="https://github.com/donnatto/ez-learning" target="_blank">Repositorio del Proyecto en Github</a>
 
@@ -47,16 +47,16 @@ El proyecto consiste en una aplicación web que permite a los visitantes (previo
 
 ### Stack Utilizado
 
-MongoDB, Express, Bootstrap, NodeJS
+NodeJS, Express, MongoDB, Bootstrap
 
 #### <a href="https://github.com/donnatto/yelpcamp" target="_blank">Repositorio del Proyecto en Github</a>
 
 ***
 
-# <a href="https://hamachisushi.herokuapp.com" target="_blank">Hamachi Sushi Bar</a>
+# <a href="https://hamachi-python.herokuapp.com" target="_blank">Hamachi Sushi Bar</a>
 >Julio - 2019
 
-<a href="https://hamachisushi.herokuapp.com" target="_blank"><img src="{{site.baseurl}}/img/project-hamachi.jpg" /></a>
+<a href="https://hamachi-python.herokuapp.com" target="_blank"><img src="{{site.baseurl}}/img/project-hamachi.jpg" /></a>
 
 Este proyecto fue desarrollado junto a <a href="https://github.com/miguelramosc2201" target="_blank">@miguelramosc2201</a> con fines de uso académico, cuando llevamos el curso de Desarrollo de Aplicaciones Empresariales I en ISIL.
 
@@ -64,15 +64,14 @@ El proyecto consiste en una aplicación web enfocada al área de restaurantes, e
 Cuenta con un Sistema de Gestión el cuál solo puede ser accedido por sus trabajadores con el ingreso de sus credenciales.
 
 - Permite al cliente la creación de reservas de atención.
-- Permite al cliente contactarse mediante un mensaje indicando su nombre, correo electrónico y asunto, el cuál se envía a una base de datos relacional MS SQL.
+- Permite al cliente contactarse mediante un mensaje indicando su nombre, correo electrónico y asunto.
 - Permite al personal de la empresa ingreso al Sistema de Gestión haciendo uso de sus credenciales.
-- Permite, una vez dentro del Sistema de Gestión, la aprobación o rechazo de las reservas de atención.
 - Permite, una vez dentro del Sistema de Gestión, la visualización de los mensajes enviados por clientes dentro de la aplicación web.
-- La aplicación web está desplegada en Heroku, en un entorno de ejecución Java.
-- Hace uso de una base de datos relacional MS SQL alojada en Microsoft Azure.
+
+Luego fue el backend fue desarrollado en Python usando Django. La base de datos PostgreSQL es un addon de Heroku, en donde se encuentra alojada la aplicación.
 
 ### Stack Utilizado
 
-MS SQL, JSP, Bootstrap, Java
+Python, Django, PostgreSQL, Bootstrap
 
-#### <a href="https://github.com/donnatto/hamachi-sushi" target="_blank">Repositorio del proyecto en Github</a>
+#### <a href="https://github.com/donnatto/hamachi-sushi-python" target="_blank">Repositorio del proyecto en Github</a>
