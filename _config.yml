@@ -4,7 +4,7 @@
 title: Donnatto | A Developer's Blog
 description: Un blog acerca del mundo de la tecnologia, creado con un enfoque apto para todos.
 baseurl: ""
-url: "https://blog.donnatto.me"
+url: "https://blog.donnatto.com"
 
 
 #-------------------------------
@@ -19,7 +19,7 @@ facebook:  https://facebook.com/edwin.dom
 linkedin: https://www.linkedin.com/in/donnatto/
 github:   https://github.com/donnatto
 instagram: https://www.instagram.com/donnatto_
-donnatto: https://donnatto.me
+donnatto: https://donnatto.com
 
 
 #-------------------------------
