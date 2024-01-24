@@ -29,12 +29,7 @@ disqus-identifier: blog-donnatto
 
 #-------------------------------
 # Instagram Feed
-instafeed: true
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: UA-147369813-1
+instafeed: false
 
 
 #-------------------------------
